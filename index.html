@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favorite Movie</title>
+    <style type="text/css" >
+  button,
+  div,
+  form,
+  input{
+    margin: 10px;
+  }
+    </style>
+</head>
+
+<body>
+    <div class="container" >
+      <h1>Movie Search</h1>
+
+      <!-- Rendered Buttons will get Dumped Here -->
+<div id="buttons-view" ></div>
+<form id="movie-form" >
+    <label for="movie-input" >Add a Movie !</label>
+    <input type="text" id="movie-input" >
+    <br>
+<!-- Button triggers new movie to be added -->
+<input id="add-movie" type="submit" value="Add a Movie !" >
+</form>
+
+
+<!-- Movie will Get Dumped here -->
+
+    <div id="movies-view" >Movies Poster</div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" ></script>
+<script type="text/javascript" src="./script.js"  ></script>
+
+</body>
+</html>
